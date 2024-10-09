@@ -1,0 +1,35 @@
+/*
+Orden de los estilos
+1. Posicionamiento
+2. Modelo de caja (box model)
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+
+/*Declación de todas las variables que se utilizarán a lo largo del código*/
+:root {
+    /*Variables de color*/
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff; 
+}
+
+/*Reinicio de los estilos preconfigurados*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Configuración general del HTML*/
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
