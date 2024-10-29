@@ -10,13 +10,13 @@ Orden de los estilos
 /*Declación de todas las variables que se utilizarán a lo largo del código*/
 :root {
     /*Variables de color*/
-    --bitcoin-orange: #f7931a;
+    --bitcoin-orange: #e48511;
     --soft-orange: #ffe9d5;
     --secondary-blue: #1a9af7;
     --soft-blue: #e7f5ff;
     --warm-black: #282623;
     --black: #201e1c;
-    --grey: #bababa;
+    --grey: #6e6d6d;
     --off-white: #faf8f7;
     --just-white: #fff; 
 }
@@ -154,7 +154,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    color: #494747;
 }
 
 /*Tablas*/
@@ -189,11 +189,11 @@ main {
 }
 
 #currency-color {
-    color: var(--bitcoin-orange);
+    color: #7D450D;
 }
 
 #commission-color {
-    color: var(--secondary-blue);
+    color: rgb(50, 50, 241);
 }
 
 .currency-table--container {
@@ -242,7 +242,7 @@ main {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
-    color: #757575;
+    color: #494747;
     text-align: center;
 }
 
@@ -357,7 +357,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem; 
-    color: #808080;
+    color: var(--just-white);
 }
 
 .product-detail--card {
@@ -428,7 +428,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: var(--just-white);
 }
 
 .bitcoin-img-container {
@@ -454,7 +454,6 @@ main {
 .main-plans-container {
     width: 100%;
     min-width: 320px;
-    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -487,14 +486,14 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #757575;
+    color: var(--black);
 }
 
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
     margin: 20px 15px 0;
@@ -510,7 +509,7 @@ main {
     height: 32px;
     top: -16px;
     left: calc(50% - 51px);
-    
+    border-color: #ffffff;
     color: var(--just-white);
     padding-top: 7.5px;
     border-radius: 8px;
@@ -520,15 +519,15 @@ main {
 }
 
 #Año {
-    background-color: var(--bitcoin-orange); 
+    background-color: #402307; 
 }
 
 #Trimestre {
-    background-color: #f16a10;
+    background-color: #873F0D;
 }
 
 #Mes {
-    background-color: rgb(219, 80, 15); 
+    background-color: #824B0D; 
 }
 
 .plan-card--title {
@@ -558,7 +557,7 @@ main {
     margin: auto;
     font-family: "Inter";
     font-size: 1.2rem;
-    color: #757575;
+    color: var(--black);
     font-weight: 500;
     line-height: 1.452rem;
 }
@@ -661,7 +660,7 @@ footer .left ul {
 
 .left a {
     text-decoration: none;
-    color: var(--just-white);
+    color: #080808;
 }
 
 .right {
@@ -680,5 +679,5 @@ footer .left ul {
     font-size: 0.8rem;
     line-height: 1.8rem;
     font-weight: 500;
-    color: var(--just-white);
+    color: #080808;
 }
