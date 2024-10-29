@@ -15,7 +15,7 @@
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias</p>
-            <a href="" class="header--button">Conoce nuestros planes<span></span></a>
+            <a href="#plans" class="header--button">Conoce nuestros planes<span></span></a>
         </div>
     </header>
 
@@ -60,9 +60,6 @@
                 <div class="main-currency-table" id="table-commission">
                     <p class="currency-table--title" id="commission-color">Comisiones</p>
                     <div class="currency-table--container">
-                        <div>
-                            <a href="" class="main--button__left"><span></span></a>
-                        </div>
                         <table>
                             <tr>
                                 <td class="table__top-left">Bitrade</td>
@@ -82,7 +79,7 @@
                             </tr>
                         </table>
                         <div>
-                            <a href="#table-currency" class="main--button__right"><span></span></a>
+                            <a href="#table-currency" class="main--button__left"><span></span></a>
                         </div>
                     </div>
                     <div class="currency-table--date" id="commission-date-color">
@@ -90,21 +87,101 @@
                     </div>
                 </div>
             </section>
-            
         </section>
-        <section>
-            <p>Sección 2</p>            
+        
+        <section class="main-product-detail">
+            <span class="product-detail--batata-logo"></span>
+            <div class="product-detail--title">
+                <h2>Creamos un producto sin comparación.</h2>
+                <p>Confiable y diseñado para su uso diario.</p>
+            </div>           
+            <section class="product-cards--container">
+                <article class="product-detail--card">
+                    <span class="clock"></span>
+                    <p class="product--card-title">Tiempo real</p>
+                    <p class="product--card-body">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+                </article>
+                <article class="product-detail--card">
+                    <span class="eye"></span>
+                    <p class="product--card-title">No hay tasas escondidas</p>
+                    <p class="product--card-body">Ni en la compra o al momneto de exit, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                </article>
+                <article class="product-detail--card">
+                    <span class="money"></span>
+                    <p class="product--card-title">Compara monedas</p>
+                    <p class="product--card-body">No más rumores, con Batatabit sabrás el valor real de cada moneda en el mercado actual.</p>
+                </article>
+                <article class="product-detail--card">
+                    <span class="check"></span>
+                    <p class="product--card-title">Información confiable</p>
+                    <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                </article>
+            </section>
         </section>
-        <section>
-            <p>Sección 3</p>
+        
+        <section class="bitcoin-img-container">
+            <h2>Conócelo hoy.</h2>
         </section>
-        <section>
-            <p>Sección 4</p>
+        
+        <section id="plans" class="main-plans-container">
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container--card" id="table-month">
+                    <p class="recommended" id="Mes">Plan Básico</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Mensual</h3>
+                        <p class="plan-card--price"><sup>$</sup>19.75</p>
+                        <p class="plan-card--saving">*Pagarás $237 por el año de suscripción.</p>
+                        <button class="plan-card--ca">Escoge este <span></span></button>
+                    </div>
+                    <div>
+                        <a href="#table-recommended" class="plan-card__left"><span></span></a>
+                    </div>
+                </article>
+                <article class="plans-container--card" id="table-recommended">
+                    <p class="recommended" id="Año">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><sup>$</sup>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comprando este plan.</p>
+                        <button class="plan-card--ca">Escoge este <span></span></button>
+                    </div>
+                    <div>
+                        <a href="#table-month" class="plan-card__center-left"><span></span></a>
+                        <a href="#table-trimonth" class="plan-card__center-right"><span></span></a>
+                    </div>
+                </article>
+                <article class="plans-container--card" id="table-trimonth">
+                    <p class="recommended" id="Trimestre">Trimestral</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Trimestral</h3>
+                        <p class="plan-card--price"><sup>$</sup>15</p>
+                        <p class="plan-card--saving">*Ahorras $81 comprando este plan.</p>
+                        <button class="plan-card--ca">Escoge este <span></span></button>
+                    </div>
+                    <div>
+                        <a href="#table-recommended" class="plan-card__right"><span></span></a>
+                    </div>
+                </article>
+            </section>
         </section>
     </main>
 
     <footer>
-        <p>Footer</p>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./css/imgs/batata-left-only.svg" alt="Logo Batatabit">
+            <p>@ Batatabit 2024</p>
+        </section>
     </footer>
 </body>
 </html>
